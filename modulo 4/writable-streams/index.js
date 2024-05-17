@@ -5,8 +5,8 @@ const readableStream = fs.createReadStream("./inputImage.bmp");
 const writableStream = fs.createWriteStream("./outputImage.bmp");
 
 readableStream.on("data", (chunk) => {
-  // console.log(chunk);
-  // printPixels(chunk);
+  //console.log(chunk);
+  //printPixels(chunk);
   writableStream.write(chunk);
 });
 

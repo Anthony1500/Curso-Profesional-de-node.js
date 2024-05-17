@@ -40,5 +40,5 @@ async function main() {
     console.error("Error: ", error);
   }
 }
-//apartir de un archivo json de design-tokens crea un archivo css
+
 main();

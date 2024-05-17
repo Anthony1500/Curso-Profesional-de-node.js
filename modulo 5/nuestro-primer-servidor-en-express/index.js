@@ -14,3 +14,5 @@ app.get("/json", (req, res) => {
 app.listen(PORT, () =>
   console.log(`🌍 Servidor corriendo en el puerto http://localhost:${PORT}`)
 );
+// npm install express
+// node --watch index.js

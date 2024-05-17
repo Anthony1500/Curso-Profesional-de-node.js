@@ -35,11 +35,13 @@ app.post("/request/:id", (req, res) => {
   res.json(requestObject);
 });
 
+
 app.get("/response", (req, res) => {
   res.cookie("myCookie", "Hola mundo");
   res.set("X-Custom-Header", "GuillermoHeader");
   res.status(200).send("Mira los headers y las cookies!");
 });
+
 
 app.listen(PORT, () =>
   console.log(`🌍 Servidor corriendo en el puerto http://localhost:${PORT}`)

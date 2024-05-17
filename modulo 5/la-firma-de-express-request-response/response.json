@@ -1,0 +1,1 @@
+{"body":{"test":"data"},"cookies":{"myCookie":"hello"},"hostname":"localhost","ip":"::1","method":"POST","params":{"id":"42"},"path":"/request/42","protocol":"http","query":{"search":"meaning of life"},"secure":false,"contentType":"application/json","isJson":"json"}
